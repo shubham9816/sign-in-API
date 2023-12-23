@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Mulish:wght@400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&family=Rubik:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Mulish;
+  font-style: normal;
+}
+
+.sign-in {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.sign-in-page {
+  width: 444px;
+  height: 454px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.05);
+
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.sign-in-header {
+  display: flex;
+  width: 372px;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.sign-in-header h3 {
+  color: #757575;
+
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sign-in-header h1 {
+  color: #333;
+
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.sign-in-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sign-in-form label {
+  color: #333;
+
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.sign-in-form input {
+  display: flex;
+  width: 352px;
+  height: 45px;
+  padding: 0px 12px;
+  align-items: flex-start;
+  gap: 12px;
+  flex-shrink: 0;
+
+  border-radius: 6px;
+  border: 1px solid #dedede;
+  outline: none;
+}
+
+.sign-in-form button {
+  margin-top: 20px;
+  display: flex;
+  width: 352px;
+  height: 45px;
+  padding: 9px 14px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: linear-gradient(180deg, #625bf7 0%, #463eea 100%);
+
+  color: #fff;
+
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 18px; /* 112.5% */
+  text-transform: uppercase;
+
+  border: none;
+}
+
+.forgot-password {
+  color: #625bf7;
+
+  text-align: center;
+  font-family: Mulish;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.sign-up {
+  display: flex;
+}
+
+.sign-up :first-child {
+  color: #333;
+
+  text-align: center;
+  font-family: Mulish;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sign-up :last-child {
+  color: #625bf7;
+  font-family: Mulish;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sign-in-page h2 {
+  color: #333;
+
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
